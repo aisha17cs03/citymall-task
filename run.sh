@@ -2,7 +2,7 @@ WORKDIR=$PWD
 BACKEND_PATH="$PWD"
 
 WORKDIR=$PWD
-BACKEND_PATH="$PWD/BackEndApp"
+BACKEND_PATH="$PWD"
 backend_setup() {
     cd "$BACKEND_PATH"
     python3 -m venv venv
@@ -11,4 +11,4 @@ backend_setup() {
     python app.py
 }
 
-backend_setup()
+backend_setup
