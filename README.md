@@ -1,5 +1,4 @@
-Welcome file
-Welcome file
+
 # Citymall-task
 
 Api's  bulid in Flask perfom to manage Todo Task.
