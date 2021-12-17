@@ -43,7 +43,7 @@ request body :
         
         "email":"<value>", 
         
-        "password":"<value>",
+        "password":"<value>"
       
     }
 
@@ -74,7 +74,7 @@ request header :
 request body :  
 
     {
-        "title":"<value>", 
+        "title":"<value>"
     }
 
 ##  To update task
@@ -90,7 +90,7 @@ request header :
 request body :  
 
     {
-        "title":"<value>", 
+        "title":"<value>"
     }
 
 
@@ -118,7 +118,7 @@ request header :
 ##  Note
 >**Note:  Task identified by based on uuid()
 
->**Note:  mime type for hole application is 'application/json'
+>**Note:  mime type for whole application is 'application/json'
 
 >**Note:  Database Sample Schema
 
