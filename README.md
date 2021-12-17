@@ -8,6 +8,7 @@ Api's  bulid in Flask perfom to manage Todo Task.
 ## Installation
 ### Requrements : 
 **Python**: `3.10.0`
+
 **MongoDB**
 
 create ```.env``` file with variables
@@ -39,9 +40,12 @@ method : ```POST```
 request body :  
 
     {
+        "name":"<value --Optinal>",
+        
         "email":"<value>", 
         
-        "password":"<value>"
+        "password":"<value>",
+      
     }
 
 ##  To login
@@ -115,7 +119,9 @@ request header :
 ##  Note
 >**Note:  Task identified by based on uuid()
 
->**Note:  Database Schema
+>**Note:  mime type for hole application is 'application/json'
+
+>**Note:  Database Sample Schema
 
    
 
